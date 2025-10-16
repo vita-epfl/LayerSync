@@ -1,9 +1,7 @@
 # 💠 LayerSync: Self-aligning Intermediate Layers
 
-**Authors:**  
 Yasaman Haghighi\*, Bastien van Delft\*, Mariam Hassan, Alexandre Alahi
-
-**Affiliation:**  
+ 
 École Polytechnique Fédérale de Lausanne (EPFL)
 
 [**📄 Paper**](https://arxiv.org/abs/2510.12581)
