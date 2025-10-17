@@ -109,7 +109,7 @@ This codebase is primarily built upon **SiT** and **REPA** repositories.
 If you find our work or code useful, please cite:
 
 ```bibtex
-@misc@misc{haghighi2025layersyncselfaligningintermediatelayers,
+@misc{haghighi2025layersyncselfaligningintermediatelayers,
       title={LayerSync: Self-aligning Intermediate Layers}, 
       author={Yasaman Haghighi and Bastien van Delft and Mariam Hassan and Alexandre Alahi},
       year={2025},
