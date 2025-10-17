@@ -4,7 +4,10 @@ Yasaman Haghighi\*, Bastien van Delft\*, Mariam Hassan, Alexandre Alahi
  
 École Polytechnique Fédérale de Lausanne (EPFL)
 
-[**📄 Paper**](https://arxiv.org/abs/2510.12581)
+<p align="center">
+  <a href="https://arxiv.org/abs/2510.12581"><b>📄 Paper</b></a> •
+  <a href="https://vita-epfl.github.io/LayerSync/"><b>🌐 Website</b></a>
+</p>
 
 ---
 
