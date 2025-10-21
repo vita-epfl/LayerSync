@@ -53,6 +53,19 @@ Please first **register on [Hugging Face](https://huggingface.co/)**, agree to t
 👉 [ImageNet-1K Dataset](https://huggingface.co/datasets/ILSVRC/imagenet-1k)
 
 ---
+## 🔽 Pretrained Checkpoints
+
+We provide pretrained model checkpoints on Hugging Face:
+
+👉 [LayerSync Checkpoints](https://huggingface.co/Yassaman/LayerSync/tree/main)
+
+Available checkpoints:
+- **Final checkpoint**: Trained model after 800 epochs
+- **Representation evaluation checkpoint**: Model checkpoint used for representation quality evaluation
+
+To use a checkpoint, download it from the repository and load it during evaluation or inference.
+
+---
 
 ## 🚀 Training with LayerSync
 
@@ -90,7 +103,7 @@ To use LayerSync in your own project, follow this reference line and synchronize
 ---
 
 ## 🧭 To-Do
-* [ ] Release checkpoints
+* [x] Release checkpoints
 * [ ] Add audio scripts
 * [ ] Add representation evaluation scripts
 
