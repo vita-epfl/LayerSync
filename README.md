@@ -26,6 +26,11 @@ Yasaman Haghighi\*, Bastien van Delft\*, Mariam Hassan, Alexandre Alahi
 
 ---
 
+## 🗞️ News
+
+- **[Jan 2025]** Added fine-tuning with LoRA support! Check out the [Finetuning-LoRA](./Finetuning-LoRA) folder.
+---
+
 ## 🛠️ Setup
 
 First, clone and set up the repository:
@@ -42,7 +47,6 @@ If you only want to run pre-trained model locally on CPU, you can remove the `cu
 conda env create -f environment.yml
 conda activate LayerSync
 ```
-
 ---
 
 ## 📦 Dataset
