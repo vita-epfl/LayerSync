@@ -43,11 +43,30 @@ python examples/wanvideo/model_training/train.py \
 
 The following results demonstrate the performance of the WAN2.1 1B Text-to-Image model fine-tuned on the **[Mixkit dataset](https://huggingface.co/datasets/FastVideo/Mixkit-Src/tree/main)**. Both models are finetuned with the same number of iterations. Finetuning with LayerSync shows significantly better visual consistency compared to vanilla LoRA fine-tuning.
 
-| Vanilla Fine-tuning | LayerSync Fine-tuning (Ours) |
-| :---: | :---: |
-| <video src="https://github.com/vita-epfl/LayerSync/raw/main/Finetuning-LoRA/examples/151.mp4" width="400" controls></video> | <video src="https://github.com/vita-epfl/LayerSync/raw/main/Finetuning-LoRA/examples/151_ls.mp4" width="400" controls></video> |
-| <video src="https://github.com/vita-epfl/LayerSync/raw/main/Finetuning-LoRA/examples/176.mp4" width="400" controls></video> | <video src="https://github.com/vita-epfl/LayerSync/raw/main/Finetuning-LoRA/examples/176_ls.mp4" width="400" controls></video> |
-| <video src="https://github.com/vita-epfl/LayerSync/raw/main/Finetuning-LoRA/examples/591.mp4" width="400" controls></video> | <video src="https://github.com/vita-epfl/LayerSync/raw/main/Finetuning-LoRA/examples/591_ls.mp4" width="400" controls></video> |
-| <video src="https://github.com/vita-epfl/LayerSync/raw/main/Finetuning-LoRA/examples/1607.mp4" width="400" controls></video> | <video src="https://github.com/vita-epfl/LayerSync/raw/main/Finetuning-LoRA/examples/1607_ls.mp4" width="400" controls></video> |
-| <video src="https://github.com/vita-epfl/LayerSync/raw/main/Finetuning-LoRA/examples/726.mp4" width="400" controls></video> | <video src="https://github.com/vita-epfl/LayerSync/raw/main/Finetuning-LoRA/examples/726_ls.mp4" width="400" controls></video> |
+<table>
+<tr>
+<td align="center"><b>Vanilla Fine-tuning</b></td>
+<td align="center"><b>LayerSync Fine-tuning (Ours)</b></td>
+</tr>
+<tr>
+<td><img src="https://github.com/vita-epfl/LayerSync/raw/main/Finetuning-LoRA/examples/151.mp4" width="400"></td>
+<td><img src="https://github.com/vita-epfl/LayerSync/raw/main/Finetuning-LoRA/examples/151_ls.mp4" width="400"></td>
+</tr>
+<tr>
+<td><img src="https://github.com/vita-epfl/LayerSync/raw/main/Finetuning-LoRA/examples/176.mp4" width="400"></td>
+<td><img src="https://github.com/vita-epfl/LayerSync/raw/main/Finetuning-LoRA/examples/176_ls.mp4" width="400"></td>
+</tr>
+<tr>
+<td><img src="https://github.com/vita-epfl/LayerSync/raw/main/Finetuning-LoRA/examples/591.mp4" width="400"></td>
+<td><img src="https://github.com/vita-epfl/LayerSync/raw/main/Finetuning-LoRA/examples/591_ls.mp4" width="400"></td>
+</tr>
+<tr>
+<td><img src="https://github.com/vita-epfl/LayerSync/raw/main/Finetuning-LoRA/examples/1607.mp4" width="400"></td>
+<td><img src="https://github.com/vita-epfl/LayerSync/raw/main/Finetuning-LoRA/examples/1607_ls.mp4" width="400"></td>
+</tr>
+<tr>
+<td><img src="https://github.com/vita-epfl/LayerSync/raw/main/Finetuning-LoRA/examples/726.mp4" width="400"></td>
+<td><img src="https://github.com/vita-epfl/LayerSync/raw/main/Finetuning-LoRA/examples/726_ls.mp4" width="400"></td>
+</tr>
+</table>
 
