@@ -41,13 +41,13 @@ python examples/wanvideo/model_training/train.py \
 
 ## 📺 Comparisons (WAN2.1 1B T2I)
 
-The following results demonstrate the performance of the WAN2.1 1B Text-to-Image model fine-tuned on the **Mixkit dataset**. LayerSync shows significantly better alignment and visual consistency compared to vanilla LoRA fine-tuning.
+The following results demonstrate the performance of the WAN2.1 1B Text-to-Image model fine-tuned on the **[Mixkit dataset](https://huggingface.co/datasets/FastVideo/Mixkit-Src/tree/main)**. Both models are finetuned with the same number of iterations. Finetuning with LayerSync shows significantly better visual consistency compared to vanilla LoRA fine-tuning.
 
 | Vanilla Fine-tuning | LayerSync Fine-tuning (Ours) |
 | --- | --- |
-| [Placeholder: Vanilla Video 1] | [Placeholder: LayerSync Video 1] |
-| [Placeholder: Vanilla Video 2] | [Placeholder: LayerSync Video 2] |
-| [Placeholder: Vanilla Video 3] | [Placeholder: LayerSync Video 3] |
-| [Placeholder: Vanilla Video 4] | [Placeholder: LayerSync Video 4] |
-| [Placeholder: Vanilla Video 5] | [Placeholder: LayerSync Video 5] |
+| <video src="Finetuning-LoRA/examples/151.mp4" width="400" controls></video> | <video src="Finetuning-LoRA/examples/151_ls.mp4" width="400" controls></video>  |
+| <video src="Finetuning-LoRA/examples/176.mp4" width="400" controls></video> | <video src="Finetuning-LoRA/examples/176_ls.mp4" width="400" controls></video>  |
+| <video src="Finetuning-LoRA/examples/591.mp4" width="400" controls></video> | <video src="Finetuning-LoRA/examples/591_ls.mp4" width="400" controls></video>  |
+| <video src="Finetuning-LoRA/examples/1607.mp4" width="400" controls></video> | <video src="Finetuning-LoRA/examples/1607_ls.mp4" width="400" controls></video>  |
+| <video src="Finetuning-LoRA/examples/726.mp4" width="400" controls></video> | <video src="Finetuning-LoRA/examples/726_ls.mp4" width="400" controls></video>  |
 
