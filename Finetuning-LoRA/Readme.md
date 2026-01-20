@@ -20,8 +20,8 @@ Replace the following core files in the `DiffSynth-Studio` directory with the op
 
 | Original File Path | Replacement Action |
 | --- | --- |
-| `diffsynth/diffusion/loss.py` | Replace with our `loss.py` ([key change: L23](https://github.com/vita-epfl/LayerSync/blob/bf065b313b24a4972e8976c46363d2c3fcb4232b/Finetuning-LoRA/loss.py#L23)) |
-| `diffsynth/pipelines/wan_video.py` | Replace with our `wan_video.py` ([key change: L23](https://github.com/vita-epfl/LayerSync/blob/bf065b313b24a4972e8976c46363d2c3fcb4232b/Finetuning-LoRA/wan_video.py#L1330)) |
+| `diffsynth/diffusion/loss.py` | Replace with our `loss.py` ([key change](https://github.com/vita-epfl/LayerSync/blob/bf065b313b24a4972e8976c46363d2c3fcb4232b/Finetuning-LoRA/loss.py#L23)) |
+| `diffsynth/pipelines/wan_video.py` | Replace with our `wan_video.py` ([key change](https://github.com/vita-epfl/LayerSync/blob/bf065b313b24a4972e8976c46363d2c3fcb4232b/Finetuning-LoRA/wan_video.py#L1330)) |
 | `examples/wanvideo/model_training/train.py` | Replace with our `train.py` |
 
 ### 3. Start Training
