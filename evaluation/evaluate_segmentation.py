@@ -478,7 +478,7 @@ def main(args):
     # Tracking results
     best_mious = [0.0] * len(layer_names)
     
-    print(f"✅ {len(seg_heads)} segmentation heads created")
+    print(f"{len(seg_heads)} segmentation heads created")
     for sit_model in [ema]:
         for epoch in range(args.epochs):
             # Set all heads to training mode
@@ -569,7 +569,7 @@ def main(args):
                             
                             metrics[i].update(pred_classes, targets_clamped)
             # Calculate and display results
-            print(f"\n📊 Epoch {epoch+1} Results:")
+            print(f"\n Epoch {epoch+1} Results:")
             print("-" * 50)
 
             if JaccardIndex:
@@ -609,7 +609,7 @@ def main(args):
                 
 
     # Final summary
-    print(f"\n🎯 Final Results:")
+    print(f"\n Final Results:")
     print("=" * 60)
     for i, layer_name in enumerate(layer_names):
         layer_idx = int(layer_name.split('.')[1])
@@ -618,7 +618,7 @@ def main(args):
     if best_mious:
         overall_best_idx = np.argmax(best_mious)
         overall_best_miou = best_mious[overall_best_idx]
-        print(f"\n🏆 Overall best: Layer {overall_best_idx} with mIoU = {overall_best_miou:.4f}")
+        print(f"\n Overall best: Layer {overall_best_idx} with mIoU = {overall_best_miou:.4f}")
 
 
 if __name__ == "__main__":

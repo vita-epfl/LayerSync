@@ -433,9 +433,9 @@ def main():
             "imagenet-1k",
             split="train",
             streaming=False,
-            cache_dir="/scratch/bvandelft/cache"
+            cache_dir=""
         )
-        print(f"✅ Dataset cached successfully with {len(hf_dataset):,} images")              
+        print(f"Dataset loaded successfully with {len(hf_dataset):,} images")              
     except Exception as e:
         raise e 
 
